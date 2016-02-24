@@ -1,0 +1,88 @@
+body{
+	margin:0;
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 300;
+}
+
+.orange{
+	color: #ff9900;
+}
+.blue{
+	color: #007aff;
+}
+.red{
+	color: red;
+}
+.gray{
+	color: gray;
+}
+.background{
+	background-color: #232f3e;
+}
+.border{
+	border: 1px dashed black;
+/*	height: 200px;*/
+}
+.border-horizontal{
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+}
+
+/*HEADER*/
+header{
+	height: 80px;
+	line-height: 80px;
+	padding: 0 20px 0 20px;
+	overflow: auto;
+}
+header .logo{
+	float: left;
+}
+header img{
+	vertical-align: middle;
+}
+header button{
+	float: right;
+	margin-top: 20px;
+}
+h1{
+	text-align: center;
+}
+
+/*SHOPPING*/
+.cart{
+	padding-bottom: 25px;
+}
+.price{
+	float: left;
+}
+.product{
+	border-top: 1px solid gray;
+	border-bottom: 1px solid gray;
+	overflow: auto;
+}
+.product.img{
+	max-width: 100%;
+}
+
+/*CHECKOUT*/
+.order{
+	padding: 20px 0 20px 0;
+	margin-bottom: 25px;
+}
+.input{
+	padding: 10px 0 10px 0;
+}
+/*FOOTER*/
+footer{
+	height: 100px;
+	padding: 20px 0 20px 0;
+	text-align: center;
+}
+
+/*MEDIA QUERIES*/
+@media screen and (max-width: 768px){
+	main{
+		padding: 0 20px 0 20px;
+	}
+}
